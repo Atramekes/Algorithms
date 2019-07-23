@@ -15,7 +15,6 @@ It is said that to teach is to learn, thus I make them kind of tutorial, i.e., t
 Most of the exercises are from [Alogorithms_by_Jeff_Erickson]('http://jeffe.cs.illinois.edu/teaching/algorithms/'), but more will be added in the future.
 
 ## Author Information
-Kortez Chou, educated in BUAA. Undergraduate. Learning computer science and 
-machine learning.
+Kortez Chou, educated in BUAA. Undergraduate. Learning computer science and machine learning.
 
 E-mail: 595976736@qq.com

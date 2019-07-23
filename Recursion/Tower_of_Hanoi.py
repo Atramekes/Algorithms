@@ -16,7 +16,7 @@ def move(src, dst):
     """
     outputs.append((src, dst))
 
-def Hanoi(): ### ADD YOUR PARAMETERS
+def Hanoi(n, src, dst, tmp): ### ADD YOUR PARAMETERS
     """ Solve Hanoi problem.
         @params ? (defined by yourself)
         @returns none
@@ -25,13 +25,16 @@ def Hanoi(): ### ADD YOUR PARAMETERS
     ### TODO - finish the function to solve Hanoi problem
     ###     use move(src, dst) to move disks
     ### YOUR CODE HERE
-    
-
+    if n==1:
+        move(src, dst)
+        return
+    Hanoi(n-1, src, tmp, dst)
+    move(src, dst)
+    Hanoi(n-1, tmp, dst, src)
     ### END YOUR CODE
 
 def run():
     ### use your Hanoi() to see your outputs
-    
 
 if __name__ == '__main__':
     args = sys.argv[1]
