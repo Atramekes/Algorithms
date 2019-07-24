@@ -16,9 +16,12 @@ def move(src, dst):
     """
     outputs.append((src, dst))
 
-def Hanoi(n, src, dst, tmp): ### ADD YOUR PARAMETERS
+def Hanoi(n, src, dst, tmp):
     """ Solve Hanoi problem.
-        @params ? (defined by yourself)
+        @params n (int): to move to which needle
+        @params src (int): from which needle to move 
+        @params dst (int): to move to which needle
+        @params tmp (int): to use which needle as temp
         @returns none
     """
 
