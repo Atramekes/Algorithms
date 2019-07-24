@@ -28,12 +28,7 @@ def Hanoi(n, src, dst, tmp):
     ### TODO - finish the function to solve Hanoi problem
     ###     use move(src, dst) to move disks
     ### YOUR CODE HERE
-    if n==1:
-        move(src, dst)
-        return
-    Hanoi(n-1, src, tmp, dst)
-    move(src, dst)
-    Hanoi(n-1, tmp, dst, src)
+    
     ### END YOUR CODE
 
 def run():
