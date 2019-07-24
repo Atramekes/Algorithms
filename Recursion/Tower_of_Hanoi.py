@@ -37,7 +37,7 @@ def Hanoi(n, src, dst, tmp):
     ### END YOUR CODE
 
 def run():
-    ### use your Hanoi() to see your outputs
+    ### use your Hanoi() to see your outputs (optional)
     Hanoi(4, 2, 3, 1)
 
 if __name__ == '__main__':
