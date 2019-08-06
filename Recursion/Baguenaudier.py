@@ -13,6 +13,7 @@ def flip(seq, func):
         @param seq (list[int]): the unprocessed sequence 
         @param func (int): to do which function
         @returns processed_seq (list[int]): the processed sequence 
+        @returns index (int): to change which bit 
     """
     ### TODO - calculate the processed_seq according to func
     ### YOUR CODE HERE (optional)
@@ -70,14 +71,16 @@ def Baguenaudier(n):
     solution = []
     for i in ans:
         s, index = flip(s, i)
+        #print(s)
         solution.append(index)
+    #print(s)
     ### END YOUR CODE
     return solution
 
 def run():
     ### finish this function to see your outputs (optional)
     ###     use flip() (optional)
-    print(Baguenaudier(10))
+    print(Baguenaudier(4))
 
 if __name__ == '__main__':
     args = sys.argv[1]
